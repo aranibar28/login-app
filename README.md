@@ -1,27 +1,23 @@
-# LoginApp
+# Login y manejo de Tokens - Angular 13+
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+## Flujo de Trabajo
 
-## Development server
+- Creación del modelo de los usuarios
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Conectar el formulario de registro con una instancia del modelo de usuario
 
-## Code scaffolding
+- Validación de información antes de enviarla a un servidor
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Validación de formularios 
 
-## Build
+- Utilización de Firebase y servicios REST
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Login y Registro de usuarios
 
-## Running unit tests
+- Guardar Token en el LocalStorage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Recordar usuarios
 
-## Running end-to-end tests
+- Proteger la ruta si no se está autenticado
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Optimizar la validación del token por longitud y tiempo 
